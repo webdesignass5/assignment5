@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Integrate</title>
+    <link rel="stylesheet" type="text/css" href="../static/integrate.css" media="screen">
+</head>
+<body>
+<marquee><h1>This Web Page Application helps to find out the Integral of any Function !!!!!</h1></marquee>
+<center><img src="../static/inte.jpg" id="img1"></center>
+<form method="post">
+    <p>Lower Limit: <input type="text" name="a"></p>
+    <p>Upper Limit: <input type="text" name="b"></p>
+    <p>Number of partitions: <input type="text" name="n"></p>
+    <p>Function: <input type="text" name="fn"></p>
+    <p><input type="submit" value="" name="submit>"</p>
+</form>
+<p id="note">PLEASE REFRESH THE PAGE TO VIEW THE CORRECT GRAPH</p>
+{% if sol %}
+<center><h1>The value of the required Integral = {{sol}}</h1></center>
+<center><img src="../static/graph.png" id="graph"></center>
+{% endif %}
+<center><div class="qwerty"><a href="home.html"><img src="../static/ghome.png" class="qw"></a></div></center>
+</body>
+</html>
