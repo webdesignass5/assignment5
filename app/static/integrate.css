@@ -1,0 +1,98 @@
+body{
+background-image: url("../static/b.jpg");
+background-attachment: fixed;
+}
+p {
+text-align: center;
+text-size: 30px;
+}
+form{
+text-size: 30px;
+}
+
+#img1 {
+    border: 15px solid #000047;
+    border-radius: 15px 50px;
+    width: 250px;
+    transition: width 2s, height 2s, transform 2s;
+    	box-shadow:  0 0 3px #FF0000, 0 0 5px #FFFFFF;
+    }
+#img1:hover {
+width: 500px;
+height: 500px;
+transform: rotate(360deg);
+}
+input[type="submit"] {
+    background: url(../static/submit.jpg);
+    width: 200px; /* width of image */
+    height: 64px; /* height of image */
+    border: 0;
+    transition: width 1s, height 1s, transform 2s;
+    opacity: 0.7;
+    filter: alpha(opacity=40);
+}
+input[type="submit"]:hover {
+opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+input[type="text"]{
+font-size: 30px;
+}
+input[type="text"]:hover{
+box-shadow: 0 0 3px #8080CC, 0 0 5px #FFFFFF;
+}
+form{
+font-size: 30px;
+color: #E6E600;
+font-family: "Comic Sans MS"
+
+}
+h1{
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example{
+0% {text-shadow: 0 0 3px #FF0000, 0 0 5px #FFFFFF;}
+25% {text-shadow: 0 0 3px #8599AC, 0 0 5px #FFFFFF;}
+50% {text-shadow: 0 0 3px #009933, 0 0 5px #FFFFFF;}
+75% {text-shadow: 0 0 3px #E6005C, 0 0 5px #FFFFFF;}
+100% {text-shadow: 0 0 3px #5C005C, 0 0 5px #FFFFFF;}
+}
+#answer{
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example{
+0% {text-shadow: 0 0 5px #FF0000, 0 0 7px #FFFFFF;}
+25% {text-shadow: 0 0 5px #8599AC, 0 0 7px #FFFFFF;}
+50% {text-shadow: 0 0 5px #009933, 0 0 7px #FFFFFF;}
+75% {text-shadow: 0 0 5px #E6005C, 0 0 7px #FFFFFF;}
+100% {text-shadow: 0 0 5px #5C005C, 0 0 7px #FFFFFF;}
+}
+div.qwerty {
+        transition: width 1s, height 1s, transform 2s;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+
+}
+div.qwerty:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+img.qw {
+    border: 5px solid #FF0000;
+    border-radius: 15px;
+    box-shadow: 0 0 3px #8080CC, 0 0 5px #FFFFFF;
+}
+
+
+
+
