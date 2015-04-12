@@ -1,0 +1,55 @@
+#img1 {
+    border: 15px solid #4D001F;
+    border-radius: 15px;
+    	box-shadow:  0 0 3px #FF0000, 0 0 5px #FFFFFF;
+    }
+body{
+background-image: url("../static/home.jpeg");
+}
+p.head {
+font-size: 40px;
+color: white;
+font-family: "Segoe Script"
+
+}
+#ass {
+font-size: 30px;
+color: grey;
+font-family: "Palatino Linotype"
+}
+#ass {
+    position: relative;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example{
+0% {text-shadow: 0 0 5px #FF0000, 0 0 7px #FFFFFF;}
+25% {text-shadow: 0 0 5px #8599AC, 0 0 7px #FFFFFF;}
+50% {text-shadow: 0 0 5px #009933, 0 0 7px #FFFFFF;}
+75% {text-shadow: 0 0 5px #E6005C, 0 0 7px #FFFFFF;}
+100% {text-shadow: 0 0 5px #5C005C, 0 0 7px #FFFFFF;}
+}
+img.img1 {
+    border: 15px solid #8F0000;
+    border-radius: 15px 50px;
+    width: 250px;
+    transition: width 2s, height 2s, transform 2s;
+    	box-shadow:  0 0 10px #000066, 0 0 15px #FFFFFF;
+    }
+img.img1:hover {
+width: 250px;
+height: 250px;
+transform: rotate(360deg);
+}
+
+div.desc {
+  text-align: center;
+  width: 120px;
+  margin: 5px;
+  font-size: 20px;
+  color: white;
+  font-family: "Comic Sans MS"
+}
