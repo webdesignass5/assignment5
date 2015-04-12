@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Average of Numbers</title>
+    <link rel="stylesheet" type="text/css" href="../static/avg.css" media="screen">
+</head>
+<body>
+<marquee><h1>This Web Page Applicaton helps you to find out average of 3 numbers !!! </h1></marquee>
+<center><img src="../static/avg.png" id="img1"></center>
+
+<form method="POST">
+    <p class="form">
+        <label>Enter the Numbers:  <input type="text" name="n1"></label>
+    </p>
+    <p><input type="submit" value="" name="submit"></p>
+
+</form>
+{% if s %}
+<center><h1 id="answer">The Average is {{s}}!!!</h1></center>
+{% endif %}
+<center><div class="qwerty"><a href="home.html"><img src="../static/ghome.png" class="qw"></a></div></center>
+</body>
+</html>
